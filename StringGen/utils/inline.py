@@ -13,6 +13,12 @@ keyboard = InlineKeyboardMarkup(
             ),
         ],
     ]
+
+reply_markup = InlineKeyboardMarkup(keyboard)
+    
+    await msg.reply_photo(
+        photo="https://telegra.ph/file/3ba515e049cfb440b6a2a.jpg"
+    
 )
 
 gen_key = InlineKeyboardMarkup(
