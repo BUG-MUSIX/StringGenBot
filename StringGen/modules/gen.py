@@ -239,7 +239,7 @@ async def gen_session(
                 txt.format(ty, string_session, SUPPORT_CHAT),
                 disable_web_page_preview=True,
             )
-            await client.join_chat("xD_Feelings")
+            await client.join_chat("SpicyxNetwork")
     except KeyError:
         pass
     try:
